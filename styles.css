@@ -3,6 +3,13 @@
     color: #195fcf;
 }
 
+#home-h2{
+    font-family: 'Poppins';
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+
 body{
     font-family: 'Poppins';
     font-size: 22px;
@@ -29,10 +36,11 @@ body{
     background-color: #e3edf1;
     padding: 20px 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .header-image {
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
     align-self: start;
 }
@@ -42,15 +50,22 @@ body{
     padding: 40px 20px;
     text-align: center;
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .header-cat-image {
     background-image: url('./assets/catHeader.jpg');
     background-size: cover;
-    height: 400px;
+    height: 350px;
     width: 100%;
     margin-top: 10px;
     opacity: 40%;
+}
+
+#home-p {
+    font-size: 22px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    text-align: center;
 }
